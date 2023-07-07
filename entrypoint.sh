@@ -2,4 +2,4 @@
 
 echo "Hello $1"
 time=$(date)
-echo "name=time" >> "$time"
+echo "time=$time" >> "$GITHUB_OUTPUT"
